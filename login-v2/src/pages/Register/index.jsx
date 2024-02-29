@@ -12,7 +12,7 @@ export const Register = () => {
   return (
     <LayoutComponents>
       <form className="login-form">
-        <span className="login-form-title">Criar Conta</span>
+        <span className="login-form-title">Criar conta</span>
         <span className="login-form-title">
           <img src={mediScan} alt="" />
         </span>
