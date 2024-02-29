@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import mediScan from "../../assets/teste.svg";
+import mediScan from "../../assets/MediscanCor.png";
 import { LayoutComponents } from "../../components/layoutComponents";
 
 export const Login = () => {
