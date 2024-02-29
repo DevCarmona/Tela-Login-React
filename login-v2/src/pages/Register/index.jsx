@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { LayoutComponents } from "../../components/layoutComponents";
 
-import mediScan from "../../assets/teste.svg";
+import mediScan from "../../assets/MediscanCor.png";
 
 export const Register = () => {
     const [email, setEmail] = useState("");
