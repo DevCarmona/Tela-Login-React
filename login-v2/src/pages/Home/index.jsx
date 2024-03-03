@@ -6,7 +6,7 @@ export const Home = () => {
 
   return (
     <LayoutComponents>
-      <h1>HOME</h1>
+      <h1>Teste</h1>
     </LayoutComponents>
   );
 };
