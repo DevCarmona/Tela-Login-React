@@ -9,6 +9,8 @@ export const Register = () => {
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
 
+    
+
   return (
     <LayoutComponents>
       <form className="login-form">
