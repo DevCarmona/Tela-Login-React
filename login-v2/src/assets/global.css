@@ -190,3 +190,23 @@ body, html {
     line-height: 1.5;
     text-decoration: none;
 }
+
+/* ----------------------------- TELA DE HOME ----------------------------- */
+
+.home-form {
+    width: 100%;
+}
+
+.home-form-title {
+    display: block;
+    font-size: 30px;
+    color: azure;
+
+    line-height: 1.2;
+    text-align: center;
+}
+
+.home-form-title img {
+    width: 90px;
+    padding-top: 10px;
+}
