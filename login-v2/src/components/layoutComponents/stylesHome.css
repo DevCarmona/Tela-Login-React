@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.container-login {
+.container-home {
     width: 100%;
     min-height: 100vh;
 
@@ -17,7 +17,7 @@
     background-color: #022744;
 }
 
-.wrap-login {
+.wrap-home {
     width: 390px;
     background-color: #33333333;
     border-radius: 20px;
