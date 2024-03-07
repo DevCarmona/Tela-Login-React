@@ -4,10 +4,15 @@ import { LayoutComponents } from "../../components/layoutComponents";
 
 import mediScan from "../../assets/MediscanCor.png";
 
+//  Form validation
+import { useFormik } from "formik";
+import validationSchema from "../../components/validationSchema";
+
 export const Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
+    const [lastName, setLastName] = useState("");
 
   return (
     <LayoutComponents>
@@ -24,7 +29,17 @@ export const Register = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <span className="focus-input" data-placeholder="Nome completo"></span>
+          <span className="focus-input" data-placeholder="Nome"></span>
+        </div>
+
+        <div className="wrap-input">
+          <input
+            className={name !== "" ? "has-val input" : "input"}
+            type="text"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
+          />
+          <span className="focus-input" data-placeholder="Sobrenome"></span>
         </div>
 
         <div className="wrap-input">
