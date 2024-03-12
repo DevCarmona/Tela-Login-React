@@ -1,18 +1,18 @@
-import { LayoutComponents } from "../../components/layoutComponents";
+import { LayoutHomeComponents } from "../../components/layoutHomeComponents/home-index";
 
 import mediScan from "../../assets/MediscanCor.png"
 
 export const Home = () => { 
 
   return (
-    <LayoutComponents>
+    <LayoutHomeComponents>
       <form className="home-form">
         <span className="home-form-title">Upload de Imagens</span>
         <span className="home-form-title">
           <img src={mediScan} alt=""/>
         </span>
       </form>
-    </LayoutComponents>
+    </LayoutHomeComponents>
   );
 };
 
