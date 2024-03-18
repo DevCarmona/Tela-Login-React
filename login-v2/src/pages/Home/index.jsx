@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { LayoutHomeComponents } from "../../components/layoutComponents/home-index";
+=======
+import { LayoutHomeComponents } from "../../components/layoutHomeComponents/home-index";
+>>>>>>> 1f54fc7accea6e04f598ba95858f4487ac7f1a18
 
 import mediScan from "../../assets/MediscanCor.png"
 
